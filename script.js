@@ -4,7 +4,7 @@ const themeBtn = document.getElementById('theme-btn');
 themeBtn.addEventListener('click', function () {
   // БАГ №6: кнопка нажимается, но ничего не меняется.
   // Этот класс не описан в style.css — посмотри, как там называется тёмная тема.
-  document.body.classList.toggle('dark-mode');
+  document.body.classList.toggle('dark');
 });
 
 
